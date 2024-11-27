@@ -1,0 +1,37 @@
+﻿{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["es2015"],
+    "allowJs": false,
+    "checkJs": false,
+    "jsx": "react",
+    "declaration": false,
+    "sourceMap": true,
+    "strict": false,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": false,
+    "noFallthroughCasesInSwitch": false,
+    "esModuleInterop": false,
+    "skipLibCheck": false,
+    "forceConsistentCasingInFileNames": false,
+    "resolveJsonModule": false,
+    "isolatedModules": false,
+    "allowSyntheticDefaultImports": false,
+    "removeComments": false,
+    "noEmit": false,
+    "incremental": false,
+    "tsBuildInfoFile": "./.tsbuildinfo",
+    "downlevelIteration": false,
+    "maxNodeModuleJsDepth": 0
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
